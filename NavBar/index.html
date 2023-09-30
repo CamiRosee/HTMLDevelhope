@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar exercise</title>
+</head>
+<body>
+    <nav>
+        <h3 style="display:inline">Navbar</h3>
+        <aside>
+            <ul>    <!-- el ejercicio sugería usar una ul pero no encuentro como lograr que los items me queden en una sola fila sin usar css-->
+                <li style="display:inline">
+                    <a href="home.html">Home</a>
+                </li>
+                <li style="display:inline">
+                    <a href="link.html">Link</a>
+                </li>
+                <li style="display:inline">
+                    <select name="dropdown-nav" id="dropdown-nav">Dropdown
+                        <option value="home">Home</option>
+                        <option value="link">Link</option>
+                    </select>
+                </li style="display:inline">
+                <li style="display:inline">
+                    <a href="" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+        </aside>
+        <div style="display:inline">
+            <input type="text" placeholder="Search" name="search">
+            <button id="search">Search</button>
+        </div>
+    </nav>
+</body>
+</html>
