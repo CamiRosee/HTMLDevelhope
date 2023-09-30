@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Form exercise</title>
+  </head>
+
+  <body>
+
+    <h2>Registration form:</h2>
+
+    <form method="get">
+        
+      <label for="email">Email:</label>
+      <input type="text" name="email" id="email"/> <br>
+  
+      <label for="password">Password:</label>
+      <input type="password" name="password" placeholder="Enter your password" id="password" /><br>
+
+      <label for="full-name">Full name:</label>
+      <input type="text" name="full-name" id="full-name" pattern="[A-Za-z]+"/> <br>
+
+      <label for="birth-date">Date of Birth:</label>
+      <input type="date" name="birth-date" id="birth-date" /> <br>
+
+      <label for="telephone">Telephone number:</label>
+      <input type="number" name="telephone" id="telephone" /> <br>
+
+      <fieldset>
+        <legend for="plans">Choose your plan:</legend>
+        <div>
+          <select name="plans" id="plans">
+             <option value="free">Free Plan</option>
+              <option value="10">10</option>
+              <option value="20">20</option>
+              <option value="30">30</option>
+          </select>
+        </div>
+        <div>
+          <input type="checkbox" name="pro-plan" id="pro-plan">
+          <label for="pro-plan">Pro plan</label>
+        </div>
+      </fieldset> <br>
+
+      <label for="card-number">Credit card number:</label>
+      <input type="number" name="card-number" id="card-number"> <br>
+
+      <label for="cvc">CVC:</label>
+      <input type="number" name="cvc" id="cvc"> <br>
+
+      <label for="exp-date">Expiration date:</label>
+      <input type="date" name="exp-date" id="exp-date" /> <br>
+
+      <label for="billing-address">Billing address:</label>
+      <input type="text" name="billing-address" id="billing-address" /> <br>
+
+      <button>Submit</button>  
+  </form>
+  </body>
+</html>
